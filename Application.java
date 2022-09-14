@@ -29,7 +29,7 @@ public class Application {
                 if (!txt.endsWith("Dividend")) {
                     continue;
                 }
-
+//              txt형태 -> Jul 28, 2022 0.25 Dividend
                 String[] splits = txt.split(" ");
                 String month = splits[0];
                 int day = Integer.valueOf(splits[1].replace(",", ""));
